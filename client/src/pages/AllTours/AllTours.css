@@ -1,0 +1,133 @@
+.allToursContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.allToursContainer h1 {
+  font-size: 3rem;
+  color: #3f3d56;
+  margin-bottom: 1rem;
+}
+
+.allTourSearchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.allTourSearchContainer input {
+  padding: 0.5rem;
+  background-color: #d9d9d9;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.allSearchButton {
+  margin-left: 0.5rem;
+}
+
+.allSearchButton .allSearchButton1 {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border: #fd9727;
+  border-radius: 7px;
+  font-weight: bold;
+  background: #fd9727;
+  color: #eeeeeeff;
+  cursor: pointer;
+}
+
+.allTourSearchContainer .allSearchButton2 {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+  font-weight: bold;
+  border: rgb(104, 219, 104);
+  background-color: rgb(104, 219, 104);
+  color: #eeeeeeff;
+  cursor: pointer;
+}
+
+.allSearchButton {
+  margin-left: 0.5rem;
+}
+
+.sortContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 7rem;
+  margin-bottom: 4rem;
+}
+
+.selectMenu {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: #d9d9d9;
+}
+
+.tableContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tableContainer table {
+  width: 80%;
+}
+
+.tableContainer thead {
+  background: #778899;
+  border-radius: 7px;
+}
+
+.tableContainer th {
+  font-size: 35px;
+  color: #3f3d56;
+}
+
+.tableContainer td {
+  font-size: 22px;
+  color: #3f3d56;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: red;
+}
+
+.paginationBttns {
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 7rem;
+  margin-bottom: 2rem;
+}
+
+.paginationBttns a {
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid #778899;
+  border-radius: 7px;
+  color: #778899;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #778899;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #778899;
+}

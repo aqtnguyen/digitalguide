@@ -1,0 +1,7 @@
+.allPoiQrCode {
+    cursor: pointer;
+}
+
+.allPoiQrCode:hover {
+    color: #EEEEEEFF;
+}

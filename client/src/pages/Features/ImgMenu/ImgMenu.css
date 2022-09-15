@@ -1,0 +1,50 @@
+.imgMenuContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.imgMenuContainer h1 {
+  font-size: 3rem;
+  color: #3f3d56;
+  margin-bottom: 1rem;
+}
+
+.imgMenuContentContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgMenuLeftSide {
+  flex: 50%;
+}
+
+.imgMenuRightSide {
+  flex: 50%;
+}
+
+.imgMenuContentContainer h2 {
+  font-size: 40px;
+  color: #3f3d56;
+}
+
+.entityImgTitleContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.entityImgTitleContainer p {
+  color: #3f3d56;
+}
+
+.entityImgTitleContainer:hover {
+  background-color: aquamarine;
+}

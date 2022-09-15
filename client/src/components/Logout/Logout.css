@@ -1,0 +1,25 @@
+.logoutBtn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logoutTag {
+  font-size: 20px;
+  color: #3f3d56;
+}
+
+.logoutBtn button {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  background: #fd9727;
+  border: 2px;
+  border-color: none;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.logoutBtn:hover button {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}

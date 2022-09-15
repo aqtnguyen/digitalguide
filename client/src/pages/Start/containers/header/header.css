@@ -1,0 +1,81 @@
+.dgHeaderContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.dgHeaderContent {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-top: -4rem;
+  margin-right: 5rem;
+}
+
+.dgHeaderContent h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+.dgHeaderContent p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-text);
+
+  margin-top: 1.5rem;
+}
+
+.dgHeaderImageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: -4rem;
+}
+
+.dgHeaderImageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .dgHeaderContainer {
+    flex-direction: column;
+  }
+
+  .dgHeaderContent {
+    margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .dgHeaderContent h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .dgHeaderContent p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .dgHeaderContent h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .dgHeaderContent p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

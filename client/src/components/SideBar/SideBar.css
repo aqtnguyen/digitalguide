@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.sidebarContainer {
+  display: flex;
+}
+
+main {
+  width: 100%;
+}
+
+.sidebarData {
+  background: #778899;
+  color: #fff;
+  height: 100vh;
+  width: 300px;
+  transition: all 0.5s;
+}
+
+.dashboardSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.dashboardSection h1 {
+  color: #3f3d56;
+  transition: all 0.5s;
+}
+
+.topSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.topSection img {
+  width: 300px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.sidebarCircle {
+  display: flex;
+  align-items: center;
+  margin-left: 0.7rem;
+  font-size: 40px;
+  color: #3f3d56;
+}
+
+.sidebarLink {
+  display: flex;
+  padding: 10px 15px;
+  gap: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3f3d56;
+  transition: all 0.5s;
+}
+
+.sidebarLink:hover {
+  cursor: pointer;
+  background-color: #c0c0c0;
+  transition: all 0.5s;
+}
+
+.active {
+  cursor: pointer;
+  background-color: #c0c0c0;
+}
+
+.sidebarButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarButtonContainer button {
+  margin-top: 2rem;
+  height: 70px;
+  width: 240px;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 5px;
+  color: #3f3d56;
+  font-weight: bold;
+  background: #fd9727;
+  cursor: pointer;
+}

@@ -1,0 +1,141 @@
+.accountContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.accountContainer h1 {
+  font-size: 3rem;
+  color: #3f3d56;
+  margin-bottom: 1rem;
+}
+
+.accountContainer h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 40px;
+  color: #3f3d56;
+}
+
+.accountInformationContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.accountInformation {
+  margin-right: 4rem;
+}
+
+.accountInformationContainer p {
+  margin: 0.5rem;
+  font-size: 35px;
+  color: #3f3d56;
+}
+
+.updateAccountFormContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.updateAccountFormContainer input {
+  width: 300px;
+  padding: 1rem;
+  background-color: #d9d9d9;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin-right: 1rem;
+}
+
+.updateAccountFormContainer p {
+  font-size: 35px;
+  color: #3f3d56;
+}
+
+.updateAccountFormButtonContainer {
+  display: flex;
+  align-items: flex-end;
+}
+
+.updateAccountFormButtonContainer .updateButton1 {
+  width: 100px;
+  padding: 1rem;
+  border-radius: 7px;
+  font-weight: bold;
+  border: 2px solid rgb(104, 219, 104);
+  background-color: rgb(104, 219, 104);
+  color: #eeeeeeff;
+  cursor: pointer;
+}
+
+.updateAccountFormButtonContainer button {
+  width: 100px;
+  padding: 1rem;
+  border-radius: 7px;
+  font-weight: bold;
+  border: 2px solid #fd9727;
+  background: #fd9727;
+  color: #eeeeeeff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .updateAccountFormContainer p {
+    font-size: 20px;
+  }
+  .updateAccountFormContainer input {
+    width: 200px;
+  }
+
+  .updateAccountFormButtonContainer .updateButton1 {
+    width: 50px;
+    font-size: 7px;
+  }
+
+  .updateAccountFormButtonContainer button {
+    width: 50px;
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .accountContainer h1 {
+    font-size: 2rem;
+  }
+
+  .accountContainer h2 {
+    font-size: 1.5rem;
+  }
+
+  .accountInformationContainer p {
+    margin: 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .updateAccountFormContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .updateAccountFormContainer p {
+    font-size: 20px;
+  }
+  .updateAccountFormContainer input {
+    width: 300px;
+  }
+
+  .updateAccountFormButtonContainer .updateButton1 {
+    width: 300px;
+    font-size: 7px;
+    margin-top: 1rem;
+  }
+
+  .updateAccountFormButtonContainer button {
+    width: 300px;
+    font-size: 7px;
+    margin-top: 1rem;
+  }
+}

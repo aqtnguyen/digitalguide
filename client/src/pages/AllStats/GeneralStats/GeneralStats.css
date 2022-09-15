@@ -1,0 +1,33 @@
+.generalStatsContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.generalStatsContainer h1 {
+  font-size: 3rem;
+  color: #3f3d56;
+  margin-bottom: 1rem;
+}
+
+.tourReviewEntityContainer {
+  width: 90%;
+  padding: 1rem;
+  background-color: #eeeeeeff;
+  border: 1px solid #eeeeeeff;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+}
+
+.tourReviewEntity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.tourReviewEntityContainer p {
+  color: #3f3d56;
+}

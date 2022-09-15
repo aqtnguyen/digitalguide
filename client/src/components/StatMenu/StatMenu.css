@@ -1,0 +1,51 @@
+.singleStatMenuContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.singleStatMenuContainer h1 {
+  font-size: 3rem;
+  color: #3f3d56;
+  margin-bottom: 1rem;
+}
+
+.statsMenuEntityContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.statsMenuEntityContainer p {
+  font-weight: bold;
+  color: #3f3d56;
+}
+
+.statsMenuEntityContainer:hover {
+  background-color: rgb(104, 219, 104);
+}
+
+@media screen and (max-width: 550px) {
+  .singleStatMenuContainer h1 {
+    font-size: 2rem;
+    color: #3f3d56;
+    margin-bottom: 1rem;
+  }
+  .statsMenuEntityContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+}

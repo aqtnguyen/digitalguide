@@ -1,0 +1,101 @@
+.loginContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginContainer h1 {
+  font-size: 3rem;
+  color: #3f3d56;
+}
+
+.loginFormContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 37%;
+  height: 50%;
+  border: 2px solid #3f3d56;
+  background-color: #778899;
+  border-radius: 7px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.loginFormContainer p {
+  font-size: 1.5rem;
+  color: #3f3d56;
+}
+
+.loginFormContainer a {
+  font-size: 1.5rem;
+  color: #fd9727;
+}
+
+.loginFormContainer input {
+  width: 100%;
+  padding: 1rem;
+  background-color: #d9d9d9;
+  border: 2px solid #3f3d56;
+  border-radius: 7px;
+  margin-bottom: 2rem;
+}
+
+.loginPasswordSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loginFormContainer button {
+  padding: 1rem;
+  background-color: #fd9727;
+  font-weight: bold;
+  width: 100%;
+  border: 2px solid #fd9727;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.signUpLinkContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37%;
+  height: 13%;
+  border: 2px solid #3f3d56;
+  background-color: #778899;
+  border-radius: 7px;
+  margin-top: 2rem;
+}
+
+.signUpLinkContainer p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3f3d56;
+}
+
+.signUpLinkContainer a {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fd9727;
+}
+
+@media screen and (max-width: 550px) {
+  .loginContainer h1 {
+    font-size: 2rem;
+  }
+
+  .loginFormContainer {
+    width: 90%;
+    height: 40%;
+  }
+
+  .signUpLinkContainer {
+    width: 90%;
+    height: 10%;
+  }
+}

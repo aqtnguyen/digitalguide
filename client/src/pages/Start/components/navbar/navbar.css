@@ -1,0 +1,138 @@
+.dgNavbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.1rem 4rem;
+}
+
+.dgNavbarLinksContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.dgNavbarLogo {
+  margin-right: 0.5rem; /*Home distance from links*/
+}
+
+.dgNavbarLogo:hover {
+  cursor: pointer;
+}
+
+.dgNavbarLogo img {
+  width: 150px;
+  height: 150px;
+}
+
+.dgNavbarLinks {
+  display: flex;
+  flex-direction: row;
+}
+
+.dgNavbarSign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.dgNavbarLinks a,
+.dgNavbarSign a,
+.dgNavbarMenu a {
+  color: #3f3d56;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.dgNavbarSign button,
+.dgNavbarMenu button {
+  padding: 0.5rem 1rem;
+  color: #3f3d56;
+  background: #fd9727;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dgNavbarMenuContainer {
+  margin-left: 1rem;
+
+  display: none;
+  position: relative;
+}
+
+.dgNavbarMenuContainer svg {
+  cursor: pointer;
+}
+
+.dgNavbarMenu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dgNavbarMenu a {
+  margin: 1rem 0;
+}
+
+.dgNavbarMenuSignLinks {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .dgNavbarLinks {
+    display: none;
+  }
+
+  .dgNavbarMenuContainer {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .dgNavbarContainer {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .dgNavbarContainer {
+    padding: 2rem;
+  }
+
+  .dgNavbarSign {
+    display: none;
+  }
+
+  .dgNavbarMenu {
+    top: 20px;
+  }
+
+  .dgNavbarMenuSignLinks {
+    display: block;
+  }
+}

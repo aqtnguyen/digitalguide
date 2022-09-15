@@ -1,0 +1,14 @@
+export { default as StartScreen } from "../screens/StartScreen";
+export { default as LoginScreen } from "../screens/LoginScreen";
+export { default as SignupScreen } from "../screens/SignupScreen";
+export { default as ForgotPassScreen } from "../screens/ForgotPassScreen";
+export { default as CategoryScreen } from "../screens/CategoryScreen";
+export { default as TourInfoScreen } from "../screens/TourInfoScreen";
+export { default as PoiInfoScreen } from "../screens/PoiInfoScreen";
+export { default as PoiScreen } from "../screens/PoiScreen";
+export { default as WriteReviewScreen } from "../screens/WriteReviewScreen";
+export { default as SeeReviewScreen } from "../screens/SeeReviewScreen";
+export { default as GameScreen } from "../screens/GameScreen";
+export { default as ChangeScreen } from "../screens/ChangeScreen";
+export { default as SeeProfileScreen } from "../screens/SeeProfileScreen";
+export { default as TabNavigator } from "./TabNavigator";

@@ -1,0 +1,92 @@
+.createMenuContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.createMenuLeftSide {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.createMenuRightSide {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.createMenuTourContainer {
+  width: 80%;
+  height: 80%;
+  border: 2px solid #3f3d56;
+  border-radius: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.createMenuTourContainer h1 {
+  font-weight: bold;
+  color: #3f3d56;
+  font-size: 3rem;
+}
+
+.createMenuTourContainer:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.createMenuIcon {
+  font-size: 14rem;
+  color: #3f3d56;
+}
+
+@media only screen and (max-width: 550px) {
+  .createMenuContainer {
+    flex-direction: column;
+  }
+
+  .createMenuLeftSide {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .createMenuRightSide {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .createMenuTourContainer h1 {
+    font-weight: bold;
+    color: #3f3d56;
+    font-size: 1rem;
+  }
+
+  .createMenuIcon {
+    font-size: 3rem;
+    color: #3f3d56;
+  }
+
+  .createMenuTourContainer {
+    width: 100%;
+    height: 80%;
+    border: 2px solid #3f3d56;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
