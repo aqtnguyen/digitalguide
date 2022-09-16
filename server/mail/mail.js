@@ -13,14 +13,15 @@ exports.sendResetMobilePasswordEmail = function (props) {
       },
     });
 
+    // paste network key in the href line but only until :3000!!
     const message = {
       from: process.env.MAIL_USERNAME,
       to: props.email,
       subject: "Digital Guide - Change Password",
       html: `
         <h3> Hello ${props.username}, </h3>
-        <p>Here is your password reset link</p>
-        <p>Please click on this link to reset your password: <a target="_" href="http://192.168.0.2:3000/newmpassword/${props.id}">http://192.168.0.5:3000/newmpassword/${props.id} </a></p>
+        <p>Here is your password reset link</p>                            
+        <p>Please click on this link to reset your password: <a target="_" href="http://192.168.0.2:3000/newmpassword/${props.id}">http://192.168.0.5:3000/newmpassword/${props.id} </a></p> 
         <p>Best regards</p>
         <p>Your Digital Guide Team</p>
       `,

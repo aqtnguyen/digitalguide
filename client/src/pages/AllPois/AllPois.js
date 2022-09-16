@@ -109,6 +109,7 @@ function AllPois() {
     setRemove(false);
   }
 
+  //paste whole network key here
   const showqr = (item) => {
     QRCode.toDataURL(
       `exp://192.168.0.2:19000/--/poi/${item.id}`,

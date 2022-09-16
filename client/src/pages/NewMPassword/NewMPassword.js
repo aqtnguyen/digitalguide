@@ -24,6 +24,7 @@ function NewMPassword() {
     return true;
   };
 
+  //paste newtork key here but only until :4000!!!
   const newPassword = () => {
     if (isValidForm()) {
       const data = { password: password };

@@ -38,18 +38,14 @@ function Signup() {
             password: data.password,
           })
           .then((response) => {
-            if (response.data.error) {
-              alert(response.data.error);
-            } else {
-              localStorage.setItem("accessToken", response.data.token);
-              setAuthState({
-                username: response.data.username,
-                id: response.data.id,
-                status: true,
-              });
-              alert("Welcome to Digital Guide");
-              navigate("/home");
-            }
+            alert("Welcome to Digital Guide");
+            localStorage.setItem("accessToken", response.data.token);
+            setAuthState({
+              username: response.data.username,
+              id: response.data.id,
+              status: true,
+            });
+            navigate("/home");
           });
       }
     });

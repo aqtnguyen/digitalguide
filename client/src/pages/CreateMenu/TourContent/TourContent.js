@@ -258,6 +258,7 @@ function TourContent() {
     setCurrentId(poi.id);
   };
 
+  // paste whole network key here
   const showqr = (poi) => {
     QRCode.toDataURL(
       `exp://192.168.0.2:19000/--/poi/${poi.id}`,
