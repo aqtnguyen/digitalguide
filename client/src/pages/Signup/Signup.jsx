@@ -38,13 +38,13 @@ function Signup() {
             password: data.password,
           })
           .then((response) => {
-            alert("Welcome to Digital Guide");
             localStorage.setItem("accessToken", response.data.token);
             setAuthState({
               username: response.data.username,
               id: response.data.id,
               status: true,
             });
+            alert("Welcome to Digital Guide");
             navigate("/home");
           });
       }
